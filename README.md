@@ -17,4 +17,11 @@ This is a basic Web Interface with Angular.
 1. Run `npm install` to install the project dependencies
 1. Run `ng serve` to start live preview server
 
+## Gh-Pages Hosting
+1. `npm i angular-cli-ghpages --save-dev`
+2. `ng build --prod --base-href "https://KrishnakanthYachareni.github.io/angularinterface/"`
+3. `npx angular-cli-ghpages --dir=dist/angularinterface`
+
+Reference: https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4
 ## Application Access URL:
+https://KrishnakanthYachareni.github.io/angularinterface/
